@@ -21,7 +21,7 @@ class LibpqxxRecipe(ConanFile):
     exports_sources = "CMakeLists.txt"
     options = {"shared": [True, False], "fPIC": [True, False]}
     default_options = {"shared": False, "fPIC": True}
-    requires = "libpq/9.6.9@bincrafters/stable"
+    requires = "libpq/10.4@philabs/stable"
     _source_subfolder = "source_subfolder"
     _autotools = None
 
